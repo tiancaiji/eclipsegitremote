@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Insert title here</title>
+	</head>
+	<body>
+		session的钝化和活化
+		钝化：内存->硬盘
+		活化：硬盘->内存
+		
+		session对象的四种状态
+		监听session对象的绑定和解绑：httpSessionBindingListener
+		a.session.setAttribute("a",xxx) 对象a绑定到session中
+		b.session.removeAttribute("a") 将对象a从session中解绑
+		
+		监听session对象的钝化，活化：HttpSessionActivationListener
+		c.钝化
+		d.活化
+	</body>
+</html>
